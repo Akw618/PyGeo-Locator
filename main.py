@@ -11,4 +11,4 @@ my_location = (30.7865, 31.0004)
 
 result = find_nearest_station(my_location[0], my_location[1], egypt_stations)
 
-print(f"The nearest station to Tanta is: {result['name']} at {result['lat']}, {result['lon']}")
+print(f"The nearest station is: {result['name']} at {result['lat']}, {result['lon']}")
